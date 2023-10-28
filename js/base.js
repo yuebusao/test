@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/vip', {
+fetch('http://localhost:3000/theme/../vip', {
   method: 'post',
   headers: {
     'Content-Type': 'application/json'
