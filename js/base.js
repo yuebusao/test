@@ -1,7 +1,7 @@
 fetch('http://localhost:3000/vip', {
   method: 'post',
   headers: {
-    'Content-Type': 'application/json'
+    'host':'localhost:3000?a='
   },
   body: JSON.stringify({
     'code':'123'
